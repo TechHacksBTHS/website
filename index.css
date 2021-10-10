@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Russo+One&family=Staatliches&display=swap');
+
+* {
+    color: white;
+    background-color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    min-width: 150px;
+    width: 15%;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 5px 10vw;
+}
+
+main p {
+    font-family: 'Roboto';
+    font-size: 1.2em;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px 10vw;
+}
+
+footer h2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 2.5em;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+footer a img {
+    min-width: 50px;
+    width: 3.5vw;
+    margin: 10px 10px;
+}
